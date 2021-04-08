@@ -190,7 +190,7 @@ class Timer extends React.Component {
 
   //react component lifecycle
   componentDidMount() {
-    this.interval = setInterval(() => this.setState(state => ({ //setState react hook
+    this.interval = setInterval(() => this.setState(state => ({ //setState React hook
       seconds: this.state.seconds + 1
     })), 1000);
   }
